@@ -1,9 +1,11 @@
 /*HEADER*/
 header {
     background-color: beige;
+    max-width: 100%;
 }
 
 nav {
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +31,7 @@ nav button {
 }
 
 #shop {
-    width: 100px;
+    
     height: 60px;
     display: flex;
     align-items: center;
@@ -50,7 +52,7 @@ nav img {
 
 h2 {
     color: brown;
-    font-size: x-large ;
+    font-size: xx-large ;
     font-weight: bolder;
 }
 
@@ -59,10 +61,16 @@ main button {
     color: brown;
     border: none;
     padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    margin-bottom: 15px;
 }
 
 .vetrina {
     display: flex;
+    justify-content:flex-start;
     
 }
 
@@ -70,13 +78,17 @@ main button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 45%;
-    margin-left: 1rem;
+    max-width: 50%;
+   
     margin-bottom: 30px;
     background-color: beige;
     border-radius: 20%;
     overflow: hidden;
     color: brown;
+}
+
+.product-card h4 {
+    margin-bottom: 0;
 }
 
 .product-card img {
@@ -99,7 +111,35 @@ main button {
     margin-top: 0;
 }
 
-#info div {
-    
+.fixer {
+    display: flex;
+    align-items: center;
+}
+
+.prezzo {
+    margin-left: 20px;
+}
+
+/*section*/
+
+#description {
+    background-color: beige;
+    color: brown;
+    margin-left: 10px;
+}
+
+#description h3 {
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+#description p {
+    margin-left: 10px;
+}
+
+#description img {
+    max-width: 100%;
+    margin: 10px;
 }
 
