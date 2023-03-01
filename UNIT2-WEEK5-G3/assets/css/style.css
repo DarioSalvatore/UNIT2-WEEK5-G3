@@ -1,0 +1,105 @@
+/*HEADER*/
+header {
+    background-color: beige;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+nav button {
+    
+    background-color: khaki;
+    border-radius: 25%;
+    border: none;
+    margin-left: 5px;
+    color: brown;
+    
+}
+
+.bottoni {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 900px;
+}
+
+#shop {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+nav img {
+    width: 25px;
+    padding-right: 5px;
+    padding-left: 2px;
+}
+
+
+/*Main*/
+
+h2 {
+    color: brown;
+    font-size: x-large ;
+    font-weight: bolder;
+}
+
+main button {
+    background-color: khaki;
+    color: brown;
+    border: none;
+    padding-left: 20px;
+}
+
+.vetrina {
+    display: flex;
+    
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 45%;
+    margin-left: 1rem;
+    margin-bottom: 30px;
+    background-color: beige;
+    border-radius: 20%;
+    overflow: hidden;
+    color: brown;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+#info {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+#info h2 {
+    margin-bottom: 0;
+}
+
+#info p {
+    margin-top: 0;
+}
+
+#info div {
+    
+}
+
